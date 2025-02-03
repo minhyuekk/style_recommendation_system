@@ -1,0 +1,8 @@
+train: data/images/train
+val: data/images/val
+test: data/images/test
+
+nc: 13  # 클래스 개수
+names: ['short_sleeved_shirt', 'long_sleeved_shirt', 'short_sleeved_outwear',
+        'long_sleeved_outwear', 'vest', 'sling', 'shorts', 'trousers',
+        'skirt', 'short_sleeved_dress', 'long_sleeved_dress', 'vest_dress', 'sling_dress']  # 클래스 이름
